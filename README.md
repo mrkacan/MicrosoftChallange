@@ -18,6 +18,11 @@
 - Using react-native-error-boundary for error handling
 - Using verticalScale, horizontalScale, moderateScale for responsive design
 
+
+## Images from App
+### IOS
+<img src="https://github.com/mrkacan/MicrosoftChallange/blob/master/githubAssets/1.PNG?raw=true" width="30%"> <img src="https://github.com/mrkacan/MicrosoftChallange/blob/master/githubAssets/2.PNG?raw=true" width="30%">
+
 ## How to run
 ### Install dependencies
 ```bash
