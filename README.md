@@ -7,6 +7,7 @@
 >> - Tried to make app more beautiful and user-friendly. (I hope it's enough for this challenge.)
 
 ## Tech Stack
+- React, React Native
 - Navigation: React Navigation
 - State Management: Context API
 - Type Checking: TypeScript
