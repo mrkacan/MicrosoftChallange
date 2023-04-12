@@ -11,4 +11,5 @@ export const colors = {
   text: '#3d3e3f',
   description: '#6c6d6e',
   title: '#454648',
+  buttonGradients: ['#ff4917', '#fe2056'],
 };

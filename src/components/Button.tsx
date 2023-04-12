@@ -45,7 +45,10 @@ const Button: React.FC<ButtonProps> = ({
       onPress={onPress}
       testID={testID}
       disabled={disabled}>
-      <StyledLinearGradient colors={['#ff4917', '#fe2056']}>
+      <StyledLinearGradient
+        start={{x: 0, y: 0}}
+        end={{x: 1, y: 0}}
+        colors={colors.buttonGradients}>
         <StyledText>{children}</StyledText>
       </StyledLinearGradient>
     </StyledTouchableOpacity>
