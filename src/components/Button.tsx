@@ -3,7 +3,6 @@ import LinearGradient from 'react-native-linear-gradient';
 import styled from 'styled-components/native';
 import {colors} from '../themes/colors';
 import {moderateScale, verticalScale} from '../utils/scaler';
-import {TouchableHighlight} from 'react-native';
 
 type ButtonProps = {
   children: string;
@@ -18,9 +17,14 @@ const StyledLinearGradient = styled(LinearGradient)`
   border-radius: ${moderateScale(10)}px;
   background-color: ${({disabled}: {disabled?: boolean}) =>
     disabled ? colors.primaryHighlight : colors.primary};
+  margin: ${moderateScale(20)}px 0;
   justify-content: center;
   align-items: center;
-  margin: ${moderateScale(20)}px 0;
+`;
+
+const StyledTouchableOpacity = styled.TouchableOpacity`
+  width: 100%;
+  height: ${verticalScale(55)}px;
 `;
 
 const StyledText = styled.Text`
@@ -37,11 +41,14 @@ const Button: React.FC<ButtonProps> = ({
   testID,
 }) => {
   return (
-    <StyledLinearGradient colors={['#ff4917', '#fe2056']}>
-      <TouchableHighlight onPress={onPress} testID={testID} disabled={disabled}>
+    <StyledTouchableOpacity
+      onPress={onPress}
+      testID={testID}
+      disabled={disabled}>
+      <StyledLinearGradient colors={['#ff4917', '#fe2056']}>
         <StyledText>{children}</StyledText>
-      </TouchableHighlight>
-    </StyledLinearGradient>
+      </StyledLinearGradient>
+    </StyledTouchableOpacity>
   );
 };
 
