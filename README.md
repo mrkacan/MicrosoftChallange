@@ -21,7 +21,7 @@
 
 ## Images from App
 ### IOS
-<img src="https://github.com/mrkacan/MicrosoftChallange/blob/master/githubAssets/1.PNG?raw=true" width="30%"> <img src="https://github.com/mrkacan/MicrosoftChallange/blob/master/githubAssets/2.PNG?raw=true" width="30%">
+<img src="https://github.com/mrkacan/MicrosoftChallange/blob/master/githubAssets/1a.PNG?raw=true" width="30%"> <img src="https://github.com/mrkacan/MicrosoftChallange/blob/master/githubAssets/2a.PNG?raw=true" width="30%"> <img src="https://github.com/mrkacan/MicrosoftChallange/blob/master/githubAssets/3a.PNG?raw=true" width="30%">
 
 ## How to run
 ### Install dependencies
